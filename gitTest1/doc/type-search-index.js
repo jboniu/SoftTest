@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"graphics","l":"AdapterCircle"},{"p":"graphics","l":"Circle"},{"p":"testCase","l":"ClassStructureTests"},{"p":"testCase","l":"FuncTests"},{"p":"graphics","l":"Main"},{"p":"graphics","l":"Polygon"},{"p":"graphics","l":"Rectangle"},{"p":"graphics","l":"Triangle"},{"p":"graphics","l":"Vertex"},{"l":"所有类","url":"allclasses-index.html"}]

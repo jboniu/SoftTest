@@ -24,7 +24,12 @@ public class Circle {
         this.radius = radius;
     }
 
-    // 绘制圆形的方法
+    
+	/**
+     * 绘制圆形的方法。
+     *
+     * <p>此方法仅打印一条消息表示圆形已被绘制，实际绘制操作依赖于具体的图形环境。</p>
+     */
     public void drawCircle() {
         System.out.println("绘制圆形");
     }

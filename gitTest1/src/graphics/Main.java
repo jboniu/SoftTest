@@ -12,6 +12,15 @@ package graphics;
  * @since 2024-11-16
  */
 public class Main {
+	/**
+     * 程序的入口点。
+     *
+     * <p>这个方法演示了如何使用图形类库中的类来创建和操作几何形状。</p>
+     *
+     * <p>它首先创建了一些顶点，然后使用这些顶点来构造三角形、矩形和圆形对象。接着，它调用这些对象的方法来绘制形状、检查形状的有效性，并计算面积。</p>
+     *
+     *@param args 命令行参数,未使用
+     */
 	public static void main(String[] args) {
         // 创建顶点
         Vertex v1 = new Vertex(0, 0);
