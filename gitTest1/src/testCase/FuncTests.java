@@ -29,7 +29,7 @@ public class FuncTests {
         assertTrue("合法三角形未识别",
                 validTriangle.canForm(new Vertex[]{new Vertex(0, 0), new Vertex(3, 0), new Vertex(0, 4)}));
 
-//        共线点不能构成三角形
+//        共线点不能构成三角形  左边错误是此处专门设置一个错误的测试用例，所以该点不能构成三角形。
         Triangle invalidTriangle = new Triangle(new Vertex(0, 0), new Vertex(1, 0), new Vertex(2, 0));
         assertFalse("非法三角形未识别",
                 invalidTriangle.canForm(new Vertex[]{new Vertex(0, 0), new Vertex(1, 0), new Vertex(2, 0)}));
@@ -56,7 +56,7 @@ public class FuncTests {
                 validRectangle.canForm(new Vertex[]{
                         new Vertex(0, 0), new Vertex(3, 0),  new Vertex(3, 4),new Vertex(0, 4)}));
 
-//        非矩形顶点
+//        非矩形顶点 左侧非法矩形未识别是此处设置的不合法的错误测试用例，所以不能构成矩形。
         Rectangle invalidRectangle = new Rectangle(
                 new Vertex(0, 0), new Vertex(1, 0), new Vertex(0, 1), new Vertex(1, 2));
         assertFalse("非法矩形未识别",
