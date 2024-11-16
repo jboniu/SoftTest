@@ -1,5 +1,16 @@
 package graphics;
 
+/**
+ * Main 类是图形应用程序的入口点。
+ *
+ * <p>这个类演示了如何使用 Vertex、Triangle、Rectangle、Circle 和 AdapterCircle 类来创建和操作几何形状。</p>
+ *
+ * <p>它创建了几个顶点，并使用这些顶点来构造三角形、矩形和圆形。然后，它调用这些形状的方法来绘制它们、检查它们是否可以由给定的顶点构成，并计算它们的面积。</p>
+ *
+ * @author Jing
+ * @version 1.0.0
+ * @since 2024-11-16
+ */
 public class Main {
 	public static void main(String[] args) {
         // 创建顶点
